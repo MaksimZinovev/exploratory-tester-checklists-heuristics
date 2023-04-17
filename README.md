@@ -1,6 +1,12 @@
 # Exploratory tester checklists heuristics
 
-VS Code snippets created using <https://www.ministryoftesting.com/articles/5631d7b0?s_id=14717348> and test heuristics cheatsheet by Elisabeth Hendrickson, James Lyndsay, and Dale Emery
+VS Code snippets created using <https://www.ministryoftesting.com/articles/5631d7b0?s_id=14717348> and test heuristics cheatsheet by Elisabeth Hendrickson, James Lyndsay, Dale Emery. See pdf files in `attachments` folder.
+
+## Links 
+
+1. [GitHub - ckenst/testing-guides: A set of guides and catalogs to help test software](https://github.com/ckenst/testing-guides)
+2. [Checklist for Testing Web Page Functionality | Ministry of Testing](https://www.ministryoftesting.com/articles/5631d7b0?s_id=14717348)
+3. [Snippet generator](https://snippet-generator.app/)
 
 ## Install
 
