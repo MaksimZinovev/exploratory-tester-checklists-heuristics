@@ -39,7 +39,7 @@
 		  "  - [ ] Timeouts",
 		  "  - [ ] Time Difference between Machines",
 		  "  - [ ] Crossing Time Zones",
-		  "  - [ ] Leap Days",
+		  "  - [ ] Leap Days, leap years",
 		  "  - [ ] Always Invalid Days (Feb 30, Sept 31)",
 		  "  - [ ] Feb 29 in Non-Leap Years",
 		  "  - [ ] Different Formats (June 5, 2001; 06/05/2001; 06/05/01; 06-05-01; 6/5/2001 12:34)",
@@ -174,50 +174,87 @@
 		],
 		"description": "heuristics follow the data"
 	},
-	"heuristic Text field (1)": {
-		"prefix": ["/Data type attack text field (1)", "/dta text field (1)"],
+	"checklist Text field (1)": {
+		"prefix": ["/Data type attack text field 1", "/dta text field 1"],
 		"body": [
 			"- Data type attack text field (1)",
 			"  - [ ] valid data",
+			"  - [ ] invalid data",
 			"  - [ ] letters",
 			"  - [ ] numbers",
 			"  - [ ] blank or empty",
 			"  - [ ] mandatory fields"
 		],
-		"description": "heuristics Text field (1)"
+		"description": "checklist text field (1)"
 	},
-	"heuristic Text field": {
-		"prefix": "!heuristic data Text field",
-		"body": [
-			"- Text field"
-		],
-		"description": "heuristic Text field"
-	},
-	"heuristic Text field (2)": {
-		"prefix": ["/Data type attack text field (2)", "/dta text field (2)"],
+	"checklist Text field (2)": {
+		"prefix": ["/Data type attack text field 2", "/dta text field 2"],
 		"body": [
 			"- Data type attack text field (2)",
 			"  - [ ] minimum and maximum length",
+			"  - [ ] space",
 			"  - [ ] long (64, 255, 256, 257, 1000, 1024, 2000, 2048 or more characters) ",
 			"  - [ ] short (1,2, 3 characters)",
 			"  - [ ] one word",
 			"  - [ ] multiple words"
 		],
-		"description": "heuristic Text field (2)"
+		"description": "checklist text field (2)"
 	},
-	"heuristic Text field (3)": {
-		"prefix": ["/Data type attack text field (3)", "/dta text field (3)"],
+	"checklist Text field (3)": {
+		"prefix": ["/Data type attack text field 3", "/dta text field 3"],
 		"body": [
 			"-Data type attack text field (3)",
-			"  - [ ] leading/trailing space",
+			"  - [ ] pace leading/trailing/in the middle",
 			"  - [ ] line break",
 			"  - [ ] tabs",
 			"  - [ ] null value",
-			"  - [ ] HTML-tags",
+			"  - [ ] HTML-tags `<blink>Hello there</blink>`",
 			"  - [ ] special characters (such as<!#$|%)",
 			"  - [ ] emojis 😀👍"
 		],
-		"description": "heuristic Text field (3)"
+		"description": "checklist text field (3)"
+	},
+	"checklist Text field  format exploits (4)": {
+		"prefix": ["/Data type attack text field 4", "/dta format exploits"],
+		"body": [
+			"- Data type attack text field format exploits",
+			"  - [ ] html-tags `<blink>Hello there</blink>`",
+			"  - [ ] js injection `<script>alert('Executing JS')</script>`",
+			"  - [ ] js injection single quote `'-prompt()-'`",
+			"  - [ ] broken html `<i><b>Bold</i></b>`",
+			"  - [ ] sql injection ` and  ‘1’=’1`",
+			"  - [ ] sql injection `admin'--`"
+		],
+		"description": "checklist text field format exploits"
+	},
+	"checklist Text size with spaces": {
+		"prefix": ["/Text size with spaces", "/dts w spaces"],
+		"body": [
+			"- Text size with spaces",
+			"  - [ ] 128b:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem",
+			"  - [ ] 129b:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem `"
+		],
+		"description": "data Text size with spaces"
+	},
+	"heuristics list": {
+		"prefix": ["/heuristics list"],
+		"body": [
+			"- Heuristics list",
+			"  - HICCUPS",
+			"  - SFDIPOT",
+			"  - CRUD - Create, Read, Update, Delete",
+			"  - Follow the data",
+			"  - FDSFSCURA",
+			"  - FDSFSCURA",
+			"  - Goldilocks - Too Big, Too Small, Just Right",
+			"  - Boundaries - Approaching the Boundary (almost too big, almost too small), At the Boundary",
+			"  - Dependencies",
+			"  - Constraints",
+			"  - Input Method",
+			"  - State Analysis",
+			"  - Users & Scenarios"
+		],
+		"description": "heuristics list"
 	},
 	"today": {
 		"prefix": "/today",
@@ -232,5 +269,5 @@
 			"","Start: $CURRENT_HOUR-$CURRENT_MINUTE","Finish: "
 		],
 		"description": "start time now"
-	},
+	}
 }
