@@ -21,7 +21,13 @@ Example 1:
 3. Press enter
 4. Snippet will be inserted
 
-![](media/example1.png)
+Markdown file:  
+
+![Markdown file](media/example1.png)
+
+markdown.json:  
+
+![markdown.json](media/example2.jpg)
 
 ## Data type attacks
 
