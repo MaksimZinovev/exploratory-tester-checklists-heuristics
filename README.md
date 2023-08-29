@@ -25,6 +25,11 @@ Markdown file:
 
 ![Markdown file](media/example1.png)
 
+
+Result:  
+
+![result](media/example3.jpg)
+
 markdown.json:  
 
 ![markdown.json](media/example2.jpg)
