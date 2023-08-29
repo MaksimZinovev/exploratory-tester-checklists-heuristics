@@ -2,10 +2,9 @@
 	"Data type attacks  paths, files": {
 		"prefix": "/dta paths files",
 		"body": [
-		  "- Data type attacks  paths, files",
+		  "- Data type attacks paths, files",
 		  "  - [ ] Long Name (>255 chars)",
-		  "  - [ ] Special Characters in Name (`space * ? / \\ | < > , . ( ) [ ] { } ; : ‘ “ ! ",
-		  "@ # $ % ^ &)`",
+		  "  - [ ] Special Characters in Name (`space * ? / \\ | < > , . ( ) [ ] { } ; : ‘ “ ! @ # $ % ^ &)`",
 		  "  - [ ] Non-Existent",
 		  "  - [ ] Already Exists",
 		  "  - [ ] No Space",
