@@ -69,13 +69,13 @@ markdown.json:
   - [ ] sql injection `admin'--`
 - Data type attack (5)
   - prefix: `/dta text field 5`, `/dta text field 5`
-- [ ] accessibility: tab navigation
-- [ ] existing value
-- [ ] Hidden text
-- [ ] Usability: Different browsers
-- [ ] Usability: Browser zoom in/out
-- [ ] Security: Extremely big requests
-- [ ] Scenario: "nasty words"
+  - [ ] accessibility: tab navigation
+  - [ ] existing value
+  - [ ] Hidden text
+  - [ ] Usability: Different browsers
+  - [ ] Usability: Browser zoom in/out
+  - [ ] Security: Extremely big requests
+  - [ ] Scenario: "nasty words"
 - Data type attack  paths, files
   - prefix `/dta paths file◊s`
   - [ ] Long Name (>255 chars)
@@ -197,15 +197,17 @@ markdown.json:
   - State Analysis
   - Users & Scenarios
 
-## Testing types
+## Test types
 
-- Basic positive tests (happy paths)
-- Extended positive testing with optional parameters
-- Negative testing with valid input (for example, trying to add an existing username)
-- Negative testing with invalid input (trying to add a username which is null)
-- Destructive testing (for example, fill in long text into input field).
-- UI verification.
-- Accessibility testing.
-- Usability testing
-- Security (session management, link expiry, error handling).
-- Mobile testing: verify UI layout (elements overlapping, misaligned, no white space) modals, menus
+- Basic test types
+  - prefix `/testing types`
+  - [ ] Basic positive tests (happy paths)
+  - [ ] Extended positive testing with optional parameters
+  - [ ] Negative testing with valid input (for example, trying to add an existing username)
+  - [ ] Negative testing with invalid input (trying to add a username which is null)
+  - [ ] Destructive testing (for example, fill in long text into input field).
+  - [ ] UI verification.
+  - [ ] Accessibility testing.
+  - [ ] Usability testing
+  - [ ] Security (session management, link expiry, error handling).
+  - [ ] Mobile testing: verify UI layout (elements overlapping, misaligned, no white space) modals, menus
