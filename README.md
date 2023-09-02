@@ -16,7 +16,7 @@ Copy snippets from markdown.json in this repo to your markdown.json file.
 
 Example 1:
 
-1. Start typing in VS code editor `dta 1`.
+1. Start typing in VS code editor `/dta paths file`.
 2. Select option fom suggestions.
 3. Press enter
 4. Snippet will be inserted
@@ -128,7 +128,7 @@ markdown.json:
   - (R) read
   - (U) update
   - (D) delete
-- Heuristic CRUD
+- Heuristic FDSFSCURA
   - prefix: `/heuristic FDSFSCURA`
   - (F) functional testing
   - (D) domain testing
@@ -139,17 +139,7 @@ markdown.json:
   - (U) user testing
   - (R) risk testing
   - (A) automated checking
-- Heuristic CRUD
-  - prefix: `/heuristic FDSFSCURA`
-  - (F) functional testing
-  - (D) domain testing
-  - (S) stress testing
-  - (F) flow testing
-- Heuristic CRUD
-  - prefix: `/heuristic follow the data`
-  - Perform a sequence of actions involving data, verifying the data integrity at each step.
-  - (Example: Enter → Search → Report → Export → Import → Update → View)
-- Heuristic CRUD
+- Heuristic follow the data
   - prefix: `/heuristic follow the data`
   - Perform a sequence of actions involving data, verifying the data integrity at each step.
   - (Example: Enter → Search → Report → Export → Import → Update → View)
