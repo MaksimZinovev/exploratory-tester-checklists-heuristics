@@ -57,7 +57,7 @@
 		"body": [
 			"HICCUPS"
 		],
-		"description": "Heuristic SFDIPOT"
+		"description": "Heuristic HICCUPS"
 	},
 	"heuristic quality areas": {
 		"prefix": "/heuristic quality areas",
@@ -125,17 +125,35 @@
 	"heuristic FDSFSCURA": {
 		"prefix": "/heuristic FDSFSCURA",
 		"body": [
-			"- (F) functional testing",
-			"- (D) domain testing",
-			"- (S) stress testing",
-			"- (F) flow testing",
-			"- (S) scenario testing",
-			"- (C) claims testing",
-			"- (U) user testing",
-			"- (R) risk testing",
-			"- (A) automated checking"
+			"- Heuristic FDSFSCURA",
+			"  - (F) functional testing",
+			"  - (D) domain testing",
+			" - (S) stress testing",
+			"  - (F) flow testing",
+			"  - (S) scenario testing",
+			"  - (C) claims testing",
+			"  - (U) user testing",
+			"  - (R) risk testing",
+			"  - (A) automated checking"
 		],
 		"description": "heuristic FDSFSCURA"
+	},
+	"heuristic CRUCSS-CPID": {
+		"prefix": "/heuristic CRUCSS-CPID",
+		"body": [
+			"- Heuristic CRUCSS-CPID",
+			"  - (C) capability",
+			"  - (R) reliability",
+			"  - (U) usability",
+			"  - (C) charisma",
+			"  - (S) security",
+			"  - (S) scalability",
+			"  - (C) compatibility",
+			"  - (P) performance",
+			"  - (I) installability",
+			"  - (D) development"
+		],
+		"description": "heuristic CRUCSS-CPID"
 	},
 	"heuristics FDSFSCURA": {
 		"prefix": "!heuristic FDSFSCURA",
@@ -147,8 +165,15 @@
 	"heuristic follow the data": {
 		"prefix": "/heuristic follow the data",
 		"body": [
-			"Perform a sequence of actions involving data, verifying the data integrity at each step.",
+			"- Perform a sequence of actions involving data, verifying the data integrity at each step.",
 			"(Example: Enter → Search → Report → Export → Import → Update → View)"
+		],
+		"description": "heuristic follow the data"
+	},
+	"heuristic interruptions": {
+		"prefix": "/heuristic interruptions",
+		"body": [
+			"- Identify “has a” relationships (a Customer has an Invoice; an Invoice has multiple Line Items). Apply CRUD, Count, Position, and/or Selection heuristics (Customer has 0, 1, many Invoices; Invoice has 0, 1, many Line Items; Delete last Line Item then Read; Update first Line Item; Some, None, All Line Items are taxable; Delete Customer with 0, 1, Many Invoices)"
 		],
 		"description": "heuristic follow the data"
 	},
@@ -188,7 +213,7 @@
 	"checklist Text field (3)": {
 		"prefix": ["/Data type attack text field 3", "/dta text field 3"],
 		"body": [
-			"-Data type attack text field (3)",
+			"- Data type attack text field (3)",
 			"  - [ ] pace leading/trailing/in the middle",
 			"  - [ ] line break",
 			"  - [ ] tabs",
@@ -209,6 +234,20 @@
 			"  - [ ] broken html `<i><b>Bold</i></b>`",
 			"  - [ ] sql injection ` and  ‘1’=’1`",
 			"  - [ ] sql injection `admin'--`"
+		],
+		"description": "checklist text field format exploits"
+	},
+	"checklist type attack (5)": {
+		"prefix": ["/Data type attack text field 5", "/dta text field 5"],
+		"body": [
+			"- Data type attack text field format exploits",
+			"  - [ ] accessibility: tab navigation",
+			"  - [ ] existing value",
+			"  - [ ] Hidden text",
+			"  - [ ] Usability: Different browsers",
+			"  - [ ] Usability: Browser zoom in/out",
+			"  - [ ] Security: Extremely big requests",
+			"  - [ ] Scenario: \"nasty words\""
 		],
 		"description": "checklist text field format exploits"
 	},
@@ -238,6 +277,23 @@
 			"  - Input Method",
 			"  - State Analysis",
 			"  - Users & Scenarios"
+		],
+		"description": "heuristics list"
+	},
+	"basic test types": {
+		"prefix": "/heuristics list",
+		"body": [
+			"- Basic test types",
+			"  - [ ] Basic positive tests (happy paths)",
+			"  - [ ] Extended positive testing with optional parameters",
+			"  - [ ] Negative testing with valid input (for example, trying to add an existing username)",
+			"  - [ ] Negative testing with invalid input (trying to add a username which is null)",
+			"  - [ ] Destructive testing (for example, fill in long text into input field).",
+			"  - [ ] UI verification.",
+			"  - [ ] Accessibility testing.",
+			"  - [ ] Usability testing",
+			"  - [ ] Security (session management, link expiry, error handling).",
+			"  - [ ] Mobile testing: verify UI layout (elements overlapping, misaligned, no white space) modals, menus"
 		],
 		"description": "heuristics list"
 	},
