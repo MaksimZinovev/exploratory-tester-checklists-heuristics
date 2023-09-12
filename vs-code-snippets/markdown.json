@@ -2,38 +2,38 @@
 	"Data type attacks  paths, files": {
 		"prefix": "/dta paths files",
 		"body": [
-		  "- Data type attacks paths, files",
-		  "  - [ ] Long Name (>255 chars)",
-		  "  - [ ] Special Characters in Name (`space * ? / \\ | < > , . ( ) [ ] { } ; : ‘ “ ! @ # $ % ^ &)`",
-		  "  - [ ] Non-Existent",
-		  "  - [ ] Already Exists",
-		  "  - [ ] No Space",
-		  "  - [ ] Minimal Space",
-		  "  - [ ] Write protected",
-		  "  - [ ] Unavailable",
-		  "  - [ ] Locked",
-		  "  - [ ] On Remote Machine",
-		  "  - [ ] Corrupted"
+			"- Data type attacks paths, files",
+			"  - [ ] Long Name (>255 chars)",
+			"  - [ ] Special Characters in Name (`space * ? / \\ | < > , . ( ) [ ] { } ; : ‘ “ ! @ # $ % ^ &)`",
+			"  - [ ] Non-Existent",
+			"  - [ ] Already Exists",
+			"  - [ ] No Space",
+			"  - [ ] Minimal Space",
+			"  - [ ] Write protected",
+			"  - [ ] Unavailable",
+			"  - [ ] Locked",
+			"  - [ ] On Remote Machine",
+			"  - [ ] Corrupted"
 		],
 		"description": "Data type attack paths, files"
-	  },
-	  "Data type attacks time date": {
+	},
+	"Data type attacks time date": {
 		"prefix": "/dta time date",
 		"body": [
-		  "- Data type attack time and date ",
-		  "  - [ ] Timeouts",
-		  "  - [ ] Time Difference between Machines",
-		  "  - [ ] Crossing Time Zones",
-		  "  - [ ] Leap Days, leap years",
-		  "  - [ ] Always Invalid Days (Feb 30, Sept 31)",
-		  "  - [ ] Feb 29 in Non-Leap Years",
-		  "  - [ ] Different Formats (June 5, 2001; 06/05/2001; 06/05/01; 06-05-01; 6/5/2001 12:34)",
-		  "  - [ ] Daylight Savings",
-		  "  - [ ] Changeover",
-		  "  - [ ] Reset Clock Backward or Forward"
+			"- Data type attack time and date ",
+			"  - [ ] Timeouts",
+			"  - [ ] Time Difference between Machines",
+			"  - [ ] Crossing Time Zones",
+			"  - [ ] Leap Days, leap years",
+			"  - [ ] Always Invalid Days (Feb 30, Sept 31)",
+			"  - [ ] Feb 29 in Non-Leap Years",
+			"  - [ ] Different Formats (June 5, 2001; 06/05/2001; 06/05/01; 06-05-01; 6/5/2001 12:34)",
+			"  - [ ] Daylight Savings",
+			"  - [ ] Changeover",
+			"  - [ ] Reset Clock Backward or Forward"
 		],
 		"description": "Data type attacks time date"
-	  },
+	},
 	"heuristic hiccups": {
 		"prefix": [
 			"/hhi",
@@ -185,7 +185,10 @@
 		"description": "heuristics follow the data"
 	},
 	"checklist Text field (1)": {
-		"prefix": ["/Data type attack text field 1", "/dta text field 1"],
+		"prefix": [
+			"/Data type attack text field 1",
+			"/dta text field 1"
+		],
 		"body": [
 			"- Data type attack text field (1)",
 			"  - [ ] valid data",
@@ -198,7 +201,10 @@
 		"description": "checklist text field (1)"
 	},
 	"checklist Text field (2)": {
-		"prefix": ["/Data type attack text field 2", "/dta text field 2"],
+		"prefix": [
+			"/Data type attack text field 2",
+			"/dta text field 2"
+		],
 		"body": [
 			"- Data type attack text field (2)",
 			"  - [ ] minimum and maximum length",
@@ -211,7 +217,10 @@
 		"description": "checklist text field (2)"
 	},
 	"checklist Text field (3)": {
-		"prefix": ["/Data type attack text field 3", "/dta text field 3"],
+		"prefix": [
+			"/Data type attack text field 3",
+			"/dta text field 3"
+		],
 		"body": [
 			"- Data type attack text field (3)",
 			"  - [ ] pace leading/trailing/in the middle",
@@ -225,7 +234,10 @@
 		"description": "checklist text field (3)"
 	},
 	"checklist Text field  format exploits (4)": {
-		"prefix": ["/Data type attack text field 4", "/dta format exploits"],
+		"prefix": [
+			"/Data type attack text field 4",
+			"/dta format exploits"
+		],
 		"body": [
 			"- Data type attack text field format exploits",
 			"  - [ ] html-tags `<blink>Hello there</blink>`",
@@ -238,7 +250,10 @@
 		"description": "checklist text field format exploits"
 	},
 	"checklist type attack (5)": {
-		"prefix": ["/Data type attack text field 5", "/dta text field 5"],
+		"prefix": [
+			"/Data type attack text field 5",
+			"/dta text field 5"
+		],
 		"body": [
 			"- Data type attack text field format exploits",
 			"  - [ ] accessibility: tab navigation",
@@ -252,7 +267,10 @@
 		"description": "checklist text field format exploits"
 	},
 	"checklist Text size with spaces": {
-		"prefix": ["/Text size with spaces", "/dts w spaces"],
+		"prefix": [
+			"/Text size with spaces",
+			"/dts w spaces"
+		],
 		"body": [
 			"- Text size with spaces",
 			"  - [ ] 128b:Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem",
@@ -281,7 +299,7 @@
 		"description": "heuristics list"
 	},
 	"basic test types": {
-		"prefix": "/heuristics list",
+		"prefix": "/test types",
 		"body": [
 			"- Basic test types",
 			"  - [ ] Basic positive tests (happy paths)",
@@ -295,7 +313,31 @@
 			"  - [ ] Security (session management, link expiry, error handling).",
 			"  - [ ] Mobile testing: verify UI layout (elements overlapping, misaligned, no white space) modals, menus"
 		],
-		"description": "heuristics list"
+		"description": "basic test types"
+	},
+	"Accessibility testing checklist 1": {
+		"prefix": "/checklist ac1",
+		"body": [
+			"- Accessibility testing checklist 1",
+			"  - [ ] Google Chrome Lighthouse - Accessibility score",
+			"  - [ ] Keyboard Navigation. All interactive elements are accessible through the keyboard",
+			"  - [ ] Keyboard Navigation. All elements are accessible through the keyboard",
+			"  - [ ] Text. Sufficient text size, contrast",
+			"  - [ ] Images. Alt text for important pictures. Empty alt text for pictures that lack importance",
+			"  - [ ] w3.org/WAI/tutorials/"
+		],
+		"description": "Accessibility testing checklist 1"
+	},
+	"Accessibility testing checklist 2": {
+		"prefix": "/checklist ac1",
+		"body": [
+			"  - [ ] Elements. It is clearly shown what object is active",
+			"  - [ ] Images. Pictures are not used to represent only textual content",
+			"  - [ ] HTML. No big validation errors in the HTML/XHTML code",
+			"  - [ ] Labels. Forms use the correct label for every element",
+			"  - [ ] Media. Any video/sound content has textual alternatives explaining the content"
+		],
+		"description": "Accessibility testing checklist 2"
 	},
 	"today": {
 		"prefix": "/today",
@@ -307,7 +349,9 @@
 	"time now": {
 		"prefix": "/start time now",
 		"body": [
-			"","Start: $CURRENT_HOUR-$CURRENT_MINUTE","Finish: "
+			"",
+			"Start: $CURRENT_HOUR-$CURRENT_MINUTE",
+			"Finish: "
 		],
 		"description": "start time now"
 	}

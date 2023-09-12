@@ -197,7 +197,7 @@ markdown.json:
   - State Analysis
   - Users & Scenarios
 
-## Test types
+## Testing types
 
 - Basic test types
   - prefix `/testing types`
@@ -211,3 +211,18 @@ markdown.json:
   - [ ] Usability testing
   - [ ] Security (session management, link expiry, error handling).
   - [ ] Mobile testing: verify UI layout (elements overlapping, misaligned, no white space) modals, menus
+- Accessibility checklist 1
+  - prefix `/checklist ac1`
+  - [ ] Google Chrome Lighthouse. Accessibility score
+  - [ ] Keyboard Navigation. All interactive elements are accessible through the keyboard
+  - [ ] Keyboard Navigation. Non-interactive elements are not focusable
+  - [ ] Text. Sufficient text size, color contrast
+  - [ ] Images. Alt text for important pictures. Empty alt text for pictures that lack importance
+  - [ ] w3.org/WAI/tutorials/
+- Accessibility testing checklist 2
+  - prefix `/checklist ac2`
+  - [ ] Elements. It is clearly shown what object is active
+  - [ ] Images. Pictures are not used to represent only textual content
+  - [ ] HTML. No big validation errors in the HTML/XHTML code
+  - [ ] Labels. Forms use the correct label for every element
+  - [ ] Media. Any video/sound content has textual alternatives explaining the content
