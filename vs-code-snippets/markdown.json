@@ -339,6 +339,100 @@
 		],
 		"description": "Accessibility testing checklist 2"
 	},
+	"Usability testing checklist 1": {
+		"prefix": "/checklist usability1",
+		"body": [
+			"- Usability testing checklist",
+			"  - prefix: `/checklist usability`",
+			"  - [ ] Consistent language",
+			"  - [ ] Consistent use of fonts",
+			"  - [ ] Correct alignment of text, numbers and fields",
+			"  - [ ] Correct spelling and grammar",
+			"  - [ ] Correct tab order",
+			"  - [ ] Error messages (language, spelling, grammar)",
+			"  - [ ] Objects have a consistent shape and size (buttons, images etc)",
+			"  - [ ] Inactive links and objects are clearly disabled (grey, toned down, not shown)"
+		],
+		"description": "Usability testing checklist"
+	},
+	"Usability testing checklist 2": {
+		"prefix": "/checklist usability2",
+		"body": [
+		"- Usability testing checklist 2",
+		"  - prefix: `/checklist usability2",
+		"  - [ ] No broken links, images or objects",
+		"  - [ ] Test with different screen sizes",
+		"  - [ ] Test with different browsers",
+		"  - [ ] Test with different devices",
+		"  - [ ] Dark-light mode",
+		"  - [ ] Scroll bars are not shown if not needed",
+		"  - [ ] Scroll bars are shown if needed",
+		"  - [ ] Windows can be resized without losing functionality",
+		],
+		"description": "Usability testing checklist 2"
+	},
+	"Top 10 most common screen resolutions": {
+		"prefix": "/checklist screen size",
+		"body": [
+		"- Top 10 most common screen resolutions",
+		"  1) 1920×1080 (22%)",
+		"  2) 1366×768 (11%)",
+		"  3) 1440×900 (9%)",
+		"  4) 1536×864 (8%)",
+		"  5) 2560×1440 (7%)",
+		"  6) 1680×1050 (4%)",
+		"  7) 1280×720 (3%)",
+		"  8) 1280×800 (2%)",
+		"  9) 1792×1120 (2%)",
+		"  10) 1600×900 (1%)"
+		],
+		"description": "Usability testing checklist 2"
+	},
+	"Security testing checklist 1": {
+		"prefix": "/checklist sec1",
+		"body": [
+		"- Security testing checklist 1",
+		"  - [ ] html-tags `<blink>Hello there</blink>`",
+		"  - [ ] js injection `<script>alert('Executing JS')</script>`",
+		"  - [ ] js injection single quote `'-prompt()-'`",
+		"  - [ ] broken html `<i><b>Bold</i></b>`",
+		"  - [ ] sql injection `and  ‘1’=’1`",
+		"  - [ ] sql injection `admin'--`",
+		"  - [ ] reasonable limit for input field (characters, file size, number, etc)",
+		"  - [ ] Unexpected errors: The system must not show information about server, database etc",
+		"  - [ ] Input fields are validated, sanitized on both  frontend and backend",
+		"  - [ ] Session variables can't be accessed /manipulated, for example via address bar"
+		],
+		"description": "Security testing checklist 1"
+	},
+	"Security testing checklist 2": {
+		"prefix": "/checklist sec2`, `/security auth`",
+		"body": [
+		"- Security testing checklist 2 authentication",
+		"  - [ ] Cookies are saved  encrypted  and cannot be read/manipulated",
+		"  - [ ] You cannot access other users' documents, accounts, orders, etc.",
+		"  - [ ] You cannot access private resources without authentication",
+		"  - [ ] You cannot create, update, delete data using other users' authentication",
+		"  - [ ] Password hash is used"
+		],
+		"description": "Security testing checklist 1"
+	},
+	"Security testing checklist 3 OWASP top 10 AP": {
+		"prefix": "/checklist sec3, /security owasp api",
+		"body": [
+		"- Security testing checklist 3 OWASP top 10 API",
+		"  - [ ] Broken object-level authorization",
+		"  - [ ] Broken user authentication",
+		"  - [ ] Excessive data exposure",
+		"  - [ ] Lack of resource-limiting and rate-limiting",
+		"  - [ ] Broken function level authorization",
+		"  - [ ] Mass assignment",
+		"  - [ ] Injections",
+		"  - [ ] Improper assets management",
+		"  - [ ] Insufficient logging and monitoring"
+		],
+		"description": "Security testing checklist 3 OWASP top 10 AP"
+	}, 
 	"today": {
 		"prefix": "/today",
 		"body": [
