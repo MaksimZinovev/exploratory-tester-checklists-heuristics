@@ -22,6 +22,13 @@ You can find your snippets following these steps
 
 ## VS Code Editor Settings
 
+This enables suggestions in markdown files. Make sure to set `"editor.suggest.showSnippets": true` 
+
+Also I find this extension is very useful when working with markdown:
+- [DavidAnson/vscode-markdownlint: Markdown linting and style checking for Visual Studio Code](https://github.com/DavidAnson/vscode-markdownlint)
+
+Here are example settings for markdown that I use.
+
 1. `Cmd+Shift+P` (macOS)
 2. Type 'Preferences: Open User Settings (JSON)'
 3. Select `markdown.json`
@@ -42,6 +49,7 @@ You can find your snippets following these steps
   "editor.inlineSuggest.enabled": false
  },
 ```
+
 
 ## Usage Example
 
